@@ -3,9 +3,9 @@ import leftArrow from '../assets/images/leftArrow.svg';
 import rightArrow from '../assets/images/rightArrow.svg';
 import Item from './Item';
 import { CiHeart } from 'react-icons/ci';
-import { Rocket } from '../store/queries';
+import { Rocket } from '../graphgl/queries';
 import { ReactNode } from 'react';
-import { useFavoriteItems } from '../store/useFavoriteItems';
+import { useFavoriteItems } from '../hooks/useFavoriteItems';
 
 interface ItemsProps {
   rockets: Rocket[];

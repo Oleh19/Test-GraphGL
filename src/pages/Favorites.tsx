@@ -1,10 +1,10 @@
 import { FC } from 'react';
-import Header from '../components/Header';
+import Header from '../components/Header/Header';
 import banner from '../assets/images/favorites-banner.jpg';
 import Item from '../components/Item';
 import { AiOutlineDelete } from 'react-icons/ai';
-import { useFavoriteItems } from '../store/useFavoriteItems';
-import { Rocket } from '../store/queries';
+import { useFavoriteItems } from '../hooks/useFavoriteItems';
+import { Rocket } from '../graphgl/queries';
 
 const Favorites: FC = () => {
   const { favoriteItems, removeFromFavorites, clearFavorites } =

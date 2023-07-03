@@ -1,6 +1,6 @@
 import { ReactNode } from 'react';
 import { FC } from 'react';
-import { Rocket } from '../store/queries';
+import { Rocket } from '../graphgl/queries';
 import item1 from '../assets/images/item1.jpg';
 
 interface ItemProps {

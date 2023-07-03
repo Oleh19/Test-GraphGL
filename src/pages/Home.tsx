@@ -1,7 +1,7 @@
 import { FC, useState } from 'react';
-import { Rocket } from '../store/queries';
-import Header from '../components/Header';
-import Banner from '../components/Banner';
+import { Rocket } from '../graphgl/queries';
+import Header from '../components/Header/Header';
+import Banner from '../components/Banner/Banner';
 import Items from '../components/Items';
 
 interface HomeProps {

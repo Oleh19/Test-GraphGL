@@ -1,5 +1,5 @@
 import { atom } from 'recoil';
-import { Rocket } from './queries';
+import { Rocket } from '../graphgl/queries';
 
 export const rocketsState = atom<Rocket[]>({
   key: 'rocketsState',

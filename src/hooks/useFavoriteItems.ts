@@ -1,6 +1,6 @@
 import { useRecoilState } from 'recoil';
-import { Rocket } from './queries';
-import { favoriteItemsState } from './recoilAtoms';
+import { Rocket } from '../graphgl/queries';
+import { favoriteItemsState } from '../recoil/recoilAtoms';
 
 export const useFavoriteItems = () => {
   const [favoriteItems, setFavoriteItems] = useRecoilState(favoriteItemsState);
