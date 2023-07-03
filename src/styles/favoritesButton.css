@@ -1,0 +1,35 @@
+.favoritesActive {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: #dd377d;
+  color: white;
+  transition: transform 0.3s ease;
+}
+
+.favoritesActive:active {
+  transform: scale(0.9);
+}
+
+.favorites {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+  transition: transform 0.3s ease;
+}
+
+.favorites:active {
+  transform: scale(0.9);
+}
+
+.heart {
+  width: 20px;
+  height: 20px;
+}

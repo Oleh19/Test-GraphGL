@@ -1,0 +1,86 @@
+.item {
+  width: 411px;
+  height: 572px;
+  border: 1px solid #d3eaff;
+}
+
+.itemImg {
+  width: 411px;
+  height: 296px;
+}
+
+.descContainer {
+  padding: 0 32px;
+  height: 276px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.itemTitle {
+  font-family: Syne;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29px;
+  text-align: center;
+}
+
+.itemDesc {
+  padding-top: 16px;
+  font-family: Lato;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: #556b84;
+  display: flex;
+  
+}
+
+.itemAction {
+  display: flex;
+  width: 347px;
+  height: 53px;
+  top: 495px;
+  left: 32px;
+  gap: 16px;
+}
+
+.itemBuy {
+  width: 278px;
+  height: 53px;
+  padding: 12px 0px 12px 0px;
+  gap: 10px;
+  background: #d3eaff;
+  cursor: pointer;
+  border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Syne;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  transition: transform 0.3s ease;
+}
+
+.itemBuy:active{
+  transform: scale(0.9)
+}
+
+.optionalButton {
+  width: 53px;
+  height: 53px;
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ECECEC;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.optionalButton:active{
+  transform: scale(0.9)
+}

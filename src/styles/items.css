@@ -1,0 +1,100 @@
+.itemsWrapper {
+  margin-top: 96px;
+  margin-bottom: 96px;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemsContainer {
+  width: 1281px;
+  height: 720px;
+  gap: 40px;
+}
+
+.itemsMenu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.itemsTitle {
+  font-family: Syne;
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 38px;
+  text-align: center;
+}
+
+.itemsArrow {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.leftArrow {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: rgba(236, 236, 236, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.rightArrow {
+  width: 44px;
+  height: 44px;
+  padding: 10px;
+  background: rgba(236, 236, 236, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.itemsBox {
+  width: 1281px;
+  height: 572px;
+  gap: 24px;
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+}
+
+.itemsScrollIndicator {
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.scroll {
+  width: 24px;
+  height: 24px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.scrollEllipseActive {
+  width: 10px;
+  height: 10px;
+  background: #000;
+  border-radius: 100%;
+  z-index: 10;
+}
+
+.scrollEllipse {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  z-index: 10;
+}
